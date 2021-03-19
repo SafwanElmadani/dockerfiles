@@ -7,6 +7,7 @@ RUN apt-get update \
 	&& apt-get install -y python3-pip
 
 RUN pip3 install strym
+RUN pip3 install gensim
 
 # install some R packages
 
