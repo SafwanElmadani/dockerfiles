@@ -9,6 +9,6 @@ RUN apt-get update \
 RUN pip3 install strym
 RUN pip3 install gensim
 
-# install some R packages
+#
 
 USER jovyan
